@@ -80,10 +80,10 @@ body {
     font-family: inherit;
 }
 
-.button:hover {
+/* .button:hover {
     background-color: var(--orange);
 }
-
+ */
 #submit {
     width: 100%;
     height: 40px;
@@ -97,10 +97,10 @@ body {
     font-weight: 700;
 }
 
-#submit:hover {
+/* #submit:hover {
     background-color: white;
     color: var(--orange);
-}
+} */
 
 #tyimage {
     width: 150px;
