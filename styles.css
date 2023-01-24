@@ -81,10 +81,6 @@ body {
     font-family: inherit;
 }
 
-/* .button:hover {
-    background-color: var(--orange);
-}
- */
 #submit {
     width: 100%;
     height: 40px;
@@ -96,6 +92,15 @@ body {
     color: white;
     text-transform: uppercase;
     font-weight: 700;
+}
+
+#submitted {
+    align-items: center;
+    justify-content: space-around;
+}
+
+#submitted div{
+    text-align: center;
 }
 
 #tyimage {
