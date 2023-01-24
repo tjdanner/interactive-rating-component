@@ -4,7 +4,7 @@
     --dark-grey: hsl(217, 10%, 25%);
     --dark-blue: hsl(213, 19%, 18%);
     --very-dark-blue: hsl(216, 12%, 8%);
-    --orange: hsl(25, 97%, 53%);
+    --purple: #7e2ffd;
 }
 
 html {
@@ -88,7 +88,7 @@ body {
     border: none;
     cursor: pointer;
     font-family: inherit;
-    background-color: var(--orange);
+    background-color: var(--purple);
     color: white;
     text-transform: uppercase;
     font-weight: 700;
@@ -113,7 +113,7 @@ body {
     border-radius: 2rem;
     height: 1.5rem;
     padding: 2px 5px;
-    color: var(--orange);
+    color: var(--purple);
 }
 
 a {
