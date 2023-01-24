@@ -39,6 +39,8 @@ for (let i = 0; i < buttons.length; i++) {
     buttons[i].addEventListener('click', event => {
         buttons[i].style.backgroundColor = lightGrey;
         buttons[i].style.color = 'white';
+        event.target.removeEventListener('mouseout', buttonRevert)
+        event.target.removeEventListener('mouseover', buttonActive)
     })
 }
 
