@@ -13,18 +13,26 @@ submit.addEventListener('mouseout', event => {
     submit.style.color = 'white';
 })
 
-for (let i = 0; i < buttons.length; i++) {
-    buttons[i].addEventListener('mouseover', event => {
-        buttons[i].style.backgroundColor = orange;
-        buttons[i].style.color = 'white';
-    })
+buttonActive = () => {
+    for (let i = 0; i < buttons.length; i++) {
+        event.target.style.backgroundColor = orange;
+        event.target.style.color = 'white';
+    }
 }
 
 for (let i = 0; i < buttons.length; i++) {
-    buttons[i].addEventListener('mouseout', event => {
-        buttons[i].style.backgroundColor = '';
-        buttons[i].style.color = '';
-    })
+    buttons[i].addEventListener('mouseover', buttonActive)
+}
+
+buttonRevert = () => {
+    for (let i = 0; i < buttons.length; i++) {
+        event.target.style.backgroundColor = '';
+        event.target.style.color = '';
+    }
+}
+
+for (let i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener('mouseout', buttonRevert)
 }
 
 for (let i = 0; i < buttons.length; i++) {
