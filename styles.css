@@ -17,6 +17,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 90vh;
 }
 
 .rating-box {
@@ -96,11 +97,6 @@ body {
     text-transform: uppercase;
     font-weight: 700;
 }
-
-/* #submit:hover {
-    background-color: white;
-    color: var(--orange);
-} */
 
 #tyimage {
     width: 150px;
