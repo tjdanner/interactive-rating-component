@@ -110,6 +110,7 @@ body {
 
 #score {
     width: 50%;
+    min-width: 125px;
     font-size: .75rem;
     border-radius: 2rem;
     height: 1.5rem;
