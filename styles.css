@@ -97,6 +97,7 @@ body {
 #submitted {
     align-items: center;
     justify-content: space-around;
+    display: none;
 }
 
 #submitted div{

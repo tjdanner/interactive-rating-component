@@ -11,10 +11,10 @@
 </head>
 
 <body>
-    <div class="rating-box" id="submitted-box">
-        <div>
-            <img src="images\icon-star.svg" id="star" alt="icon">
-        </div>
+    <div class="rating-box" id="rating-select">
+            <div>
+                <img src="images\icon-star.svg" id="star" alt="icon">
+            </div>
         <div class="textbox">
             <h2>How did we do?</h2>
             <p>Please let us know how we did with your support request. All feedback is appreciated to help us impove
@@ -27,7 +27,17 @@
             <button class="button">4</button>
             <button class="button">5</button>
         </div>
-        <a href="submitted.html"><button id="submit">Submit</button></a>
+        <button id="submit">Submit</button>
+    </div>
+
+    <div class="rating-box" id="submitted">
+        <img src="images\illustration-thank-you.svg" id="tyimage" alt="Thank you.">
+        <div id="score">You didn't select a rating</div>
+        <div>
+            <h2>Thank you!</h2>
+            <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get
+                in touch!</p>
+        </div>
     </div>
 
     <script src="script.js"></script>
